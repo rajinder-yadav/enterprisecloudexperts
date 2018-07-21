@@ -1,5 +1,9 @@
 {
   "name": "enterprisecloudexperts",
+  "homepage": "https://rajinder-yadav.github.io/enterprisecloudexperts/",
+  "description": "ECX - Enterprise Cloud Experts Corporate Web site",
+  "author": "Rajinder Yadav <rajindery@hotmail.com>",
+  "license": "GPL-3.0",
   "version": "0.1.0",
   "scripts": {
     "ng": "ng",
@@ -9,8 +13,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "description": "ECX - Enterprise Cloud Experts Corporate Web site",
-  "author": "Rajinder Yadav <info@enterprisecloudexperts.io>",
   "private": true,
   "dependencies": {
     "@angular/animations": "^6.0.2",
