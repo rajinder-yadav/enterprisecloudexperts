@@ -1,13 +1,13 @@
 <!-- Fix top nagivation bar -->
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand no-focus" routerLink="/main">ECX</a>
+  <a class="navbar-brand no-focus" routerLink="/">ECX</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
     aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link no-focus" routerLink="/main">Enterprise Cloud Experts</a>
+      <a class="nav-item nav-link no-focus" routerLink="/">Enterprise Cloud Experts</a>
       <!--
       <a class="nav-item nav-link active" href="#">Home
         <span class="sr-only">(current)</span>
@@ -22,10 +22,12 @@
 </nav>
 <!-- Main container -->
 <div class="container-fluid m-0 p-0">
-  <div class="row w-100 main-grad no-gutters">
+  <div class="row main-grad no-gutters">
+    <div class="col-sm-3 col-1"></div>
     <div class="col">
-      <img src="assets/images/ecx-shuttle.png" height="300px" alt="" class="mx-auto d-block">
+      <img src="assets/images/ecx-shuttle.png" alt="" class="img-fluid">
     </div>
+    <div class="col-sm-3 col-1"></div>
   </div>
 </div>
 <div class="container-fluid">
@@ -95,40 +97,28 @@
 </div>
 <!-- Center container -->
 <div class="container-fluid mt-5 p-0">
-  <div class="row w-100 space-grad no-gutters">
-    <div class="col">
-      <div class="media text-white">
-        <img src="assets/images/exc-shuttle-deploy.png" height="350px" alt="" class="ml-5 mr-3">
-        <div class="media-body">
-          <!-- 2 columns -->
-          <div class="row no-gutters">
-            <div class="col">
-              <h4 class="mt-0">Rollout, rollback, scale!</h4>
-              <p>
-                Confidently release new changes and deploy to the Cloud. When something goes wrong, changes are rolled back for you.
-              </p>
-              <p>
-                Stay in control, scale your application up or down with a command, or set it up to do it automatically based on CPU load.
-              </p>
-            </div>
-            <div class="col mx-4">
-              <h4 class="mt-0">Agile IT</h4>
-              <p>
-                Respond quickly to customer demands and changing markets. Deliver value for your clients by operating smarter.
-              </p>
-            </div>
-          </div>
-          <!-- Single row -->
-          <div class="row no-gutters">
-            <div class="col-6">
-              <h4 class="mt-4">Improve Development</h4>
-              <p>
-                Increase the producitivity of the Software development team. Let new features reach your clients to accelerate business and grow your market.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div class="row space-grad no-gutters text-white">
+    <div class="col-12 col-sm">
+      <img src="assets/images/exc-shuttle-deploy.png" alt="" class="img-w">
+    </div>
+    <div class="col-12 col-sm px-3">
+      <h4 class="mt-0">Rollout, rollback, scale!</h4>
+      <p>
+        Confidently release new changes and deploy to the Cloud. When something goes wrong, changes are rolled back for you.
+      </p>
+      <p>
+        Stay in control, scale your application up or down with a command, or set it up to do it automatically based on CPU load.
+      </p>
+      <h4 class="mt-4">Improve Development</h4>
+      <p>
+        Increase the producitivity of the Software development team. Let new features reach your clients to accelerate business and grow your market.
+      </p>
+    </div>
+    <div class="col-12 col-sm px-3">
+      <h4 class="mt-0">Agile IT</h4>
+      <p>
+        Respond quickly to customer demands and changing markets. Deliver value for your clients by operating smarter.
+      </p>
     </div>
   </div>
   <!-- Copyright notice -->
