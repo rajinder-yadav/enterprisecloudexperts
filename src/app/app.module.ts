@@ -5,11 +5,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { GoogleTagManagerService } from './service/google-tag-manager.service';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'main', pathMatch: 'full'},
-  {path: 'main', component: HomeComponent},
-  {path: '**', component: PageNotFoundComponent}
+  // {path: '', redirectTo: 'main', pathMatch: 'full'},
+  { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
@@ -22,7 +23,9 @@ const routes: Routes = [
     BrowserModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [
+    GoogleTagManagerService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
